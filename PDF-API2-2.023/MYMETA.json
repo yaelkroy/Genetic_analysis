@@ -1,0 +1,42 @@
+{
+   "abstract" : "Facilitates the creation and modification of PDF files",
+   "author" : [
+      "Steve Simms <steve@deefs.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.132620, CPAN::Meta::Converter version 2.143240",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "PDF-API2",
+   "prereqs" : {
+      "build" : {
+         "requires" : {}
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Compress::Zlib" : "1.0",
+            "Font::TTF" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {}
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "url" : "https://bitbucket.org/ssimms/pdfapi2"
+      }
+   },
+   "version" : "2.023"
+}
